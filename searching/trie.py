@@ -16,3 +16,6 @@ class TrieNode(object):
 			trie_node = TrieNode()
 			self.next[node_key] = trie_node
 			trie_node.add_word(remaining_word)
+			
+	def search_word(word):
+		pass
