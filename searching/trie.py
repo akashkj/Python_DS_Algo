@@ -27,7 +27,7 @@ class TrieNode(object):
 		remaining_word = word[1:]
 		if key in self.next:
 			node = self.next.get(key)
-			if len(remaining_word) == 0:
+			if len(remaining_word) == 0 or not node.next:
 				if node.complete_word:
 					print "word found in the records"
 				else:
