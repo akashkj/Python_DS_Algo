@@ -1,3 +1,9 @@
+"""
+Prints left view of a binary tree
+Solution: Do level order traversal and print first element on ech level
+"""
+
+
 class Node(object):
 	def __init__(self, data):
 		self.data = data
